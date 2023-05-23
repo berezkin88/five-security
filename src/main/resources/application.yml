@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/default
+    username: sa
+    password: YWJhYmFnYWxhbWFnYQ==
+  sql:
+    init:
+      mode: never
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
